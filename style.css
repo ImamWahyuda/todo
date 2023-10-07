@@ -1,0 +1,80 @@
+/* style.css */
+
+/* Gaya umum untuk tombol */
+button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    border-radius: 4px; /* Menambahkan border-radius untuk membuat tombol berbentuk kotak */
+}
+
+/* Gaya untuk tombol "Tambah" */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px; /* Menambahkan border-radius untuk membuat tombol berbentuk kotak */
+}
+
+/* Gaya untuk tombol "Edit" */
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+    border-radius: 4px; /* Menambahkan border-radius untuk membuat tombol berbentuk kotak */
+}
+
+/* Gaya untuk tombol "Hapus" */
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border-radius: 4px; /* Menambahkan border-radius untuk membuat tombol berbentuk kotak */
+}
+
+/* Gaya untuk tombol "Tandai Selesai" */
+.completed-task {
+    text-decoration: line-through; /* Menambahkan efek coretan */
+    color: #888; /* Mengubah warna teks menjadi abu-abu untuk tugas yang selesai */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.completed {
+    background-color: #c0e6c9;
+}
